@@ -1,8 +1,8 @@
 import assert from 'assert';
 import main from '../src/index';
 
-describe('test suit', function () {
-  it('asserts true', function () {
+describe('test suit', () => {
+  it('asserts true', () => {
     assert(main());
   });
 });
