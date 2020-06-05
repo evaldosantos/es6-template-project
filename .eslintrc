@@ -18,5 +18,6 @@
   },
   "plugins": [
     "mocha"
-  ]
+  ],
+  "parser": "babel-eslint"
 }
